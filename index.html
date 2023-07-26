@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bootstrap rpl2</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- my css -->
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body id="home">
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">Kayla Aditya</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- jumbotron -->
+  <section class="jumbotron text-center">
+    <img src="img/RPL.jpg" alt="kelladtya" width="200" class="rounded-circle img-thumbnail" />
+    <h1 class="display-4">Kelladtya</h1>
+    <p>Jurusan | Rekayasa Perangkat Lunak</p>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffff" fill-opacity="1"
+        d="M0,192L34.3,160C68.6,128,137,64,206,64C274.3,64,343,128,411,176C480,224,549,256,617,229.3C685.7,203,754,117,823,96C891.4,75,960,117,1029,160C1097.1,203,1166,245,1234,245.3C1302.9,245,1371,203,1406,181.3L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="co;ntainer">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>About Me</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center">
+        <div class="col-md-4">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique laboriosam quis quaerat voluptates
+            suscipit dicta explicabo quia veniam consequatur quo error praesentium, magnam minima dolorum id quidem
+            perferendis? Natus, eligendi.</p>
+        </div>
+        <div class="col-md-4">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus commodi optio, labore cupiditate nostrum
+            est nesciunt inventore enim vitae delectus quos repellendus earum eos dolor fugit itaque natus. Expedita,
+            consequuntur!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- projects gambar -->
+  <section id="projects">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>My Projects</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/gambar1.jpg" class="card-img-top" alt="gambar1">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/gambar2.jpg" class="card-img-top" alt="gambar2">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/gambar3.jpg" class="card-img-top" alt="gambar3">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contacts -->
+  <section id="contact">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>Contact Me</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nama Lengkap</label>
+              <input type="email" class="form-control" id="name" aria-describedby="name">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" aria-describedby="email">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
+              <textarea class="form-control" id="pesan" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="text-black text-center p-3">
+    <p>Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.instagram.com/kelladtya/"
+        class="text-primary fw-bold">Kelladtya</a></p>
+  </footer>
+
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
